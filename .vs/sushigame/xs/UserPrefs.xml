@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{55AD685F-34BD-8435-E715-9DFD3EB2C17E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Test.cs">
+    <Files>
+      <File FileName="Assets/Test.cs" Line="10" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sushigame" expanded="True" selected="True">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de3baa11-8dea-4e19-9ead-f29489213d12" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
