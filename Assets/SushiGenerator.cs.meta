@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c5e1cdad2bc374e97bcefcf5868f1788
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sushi1Prefab: {fileID: 4078741022261652309, guid: fe9cfb7364ffb4773b695663cd76ff52, type: 3}
+  - sushi2Prefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

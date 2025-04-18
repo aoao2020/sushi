@@ -1,13 +1,20 @@
 ﻿<Properties StartupConfiguration="{55AD685F-34BD-8435-E715-9DFD3EB2C17E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SushiController.cs">
     <Files>
-      <File FileName="Assets/Test.cs" Line="10" Column="28" />
+      <File FileName="Assets/SushiController.cs" Line="36" Column="33" />
+      <File FileName="Assets/SushiGenerator.cs" />
+      <File FileName="Assets/PlayerController.cs" />
+      <File FileName="Assets/Gage.cs" />
+      <File FileName="Assets/clearkaratugihe.cs" />
+      <File FileName="Assets/AnimatedImage.cs" />
+      <File FileName="Assets/mgGif.cs" />
+      <File FileName="Assets/Koudousuru.cs" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="sushigame" expanded="True" selected="True">
-            <Node name="Assets" expanded="True" />
+          <Node name="sushigame" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -15,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de3baa11-8dea-4e19-9ead-f29489213d12" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aec8eb61-5464-408f-b081-1eaf8bf0f4c7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638441771660000000
-    m_Hash: 2548674612
+      ticks: 638766067290000000
+    m_Hash: 2187297002
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -33,7 +33,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
+      category: 
       type: asset
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
@@ -114,6 +114,7 @@ m_PackageAssets:
         - 5.2.3
         - 5.2.4
         - 5.2.6
+        - 5.2.7
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -133,6 +134,13 @@ m_PackageAssets:
         - 7.0.7
         - 7.0.8
         - 7.0.9
+        - 7.0.10
+        - 7.0.11
+        - 7.0.12
+        - 7.0.13
+        - 7.1.0
+        - 7.1.1
+        - 7.1.2
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
@@ -145,8 +153,24 @@ m_PackageAssets:
         - 9.0.0-pre.3
         - 9.0.0
         - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 9.0.4
+        - 9.1.0
+        - 9.1.1
+        - 9.1.2
+        - 9.1.3
         - 10.0.0-pre.1
         - 10.0.0-pre.2
+        - 10.0.0
+        - 10.0.1
+        - 10.0.2
+        - 10.0.3
+        - 10.1.0
+        - 10.1.1
+        - 10.1.2
+        - 10.1.3
+        - 10.1.4
         compatible:
         - 5.0.4
         - 5.0.5
@@ -159,10 +183,10 @@ m_PackageAssets:
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
-      - name: com.unity.mathematics
-        version: 1.1.0
       - name: com.unity.2d.sprite
         version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.animation
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -299,7 +323,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
+      category: 
       type: asset
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
@@ -366,6 +390,8 @@ m_PackageAssets:
         - 6.0.5
         - 6.0.6
         - 6.0.7
+        - 6.0.8
+        - 6.0.9
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
@@ -377,18 +403,26 @@ m_PackageAssets:
         - 8.0.0
         - 8.0.1
         - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 8.0.5
         - 9.0.0-pre.1
         - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 10.0.0
         compatible:
         - 4.0.2
         verified: 4.0.2
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.2
-      - name: com.unity.2d.animation
-        version: 5.0.2
       - name: com.unity.2d.sprite
         version: 1.0.0
+      - name: com.unity.2d.animation
+        version: 5.0.2
       resolvedDependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -498,7 +532,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
+      category: 
       type: asset
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
@@ -576,6 +610,7 @@ m_PackageAssets:
         - 7.0.4
         - 7.0.5
         - 7.0.6
+        - 7.0.7
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
@@ -583,8 +618,20 @@ m_PackageAssets:
         - 9.0.0-pre.1
         - 9.0.0
         - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 9.0.4
+        - 9.0.5
         - 10.0.0-pre.1
         - 10.0.0-pre.2
+        - 10.0.0
+        - 10.0.1
+        - 10.0.2
+        - 10.0.3
+        - 10.0.4
+        - 10.0.5
+        - 10.0.6
+        - 10.0.7
         compatible:
         - 5.1.1
         - 5.1.2
@@ -595,17 +642,17 @@ m_PackageAssets:
         - 5.1.7
         verified: 5.1.7
       dependencies:
-      - name: com.unity.mathematics
-        version: 1.1.0
-      - name: com.unity.2d.common
-        version: 4.0.3
       - name: com.unity.2d.path
         version: 4.0.1
+      - name: com.unity.2d.common
+        version: 4.0.3
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.physics2d
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.mathematics
-        version: 1.1.0
+      - name: com.unity.2d.path
+        version: 4.0.1
       - name: com.unity.2d.common
         version: 4.0.3
       - name: com.unity.2d.sprite
@@ -620,8 +667,8 @@ m_PackageAssets:
         version: 1.0.0
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
-      - name: com.unity.2d.path
-        version: 4.0.1
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.physics2d
         version: 1.0.0
       keywords:
@@ -714,7 +761,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Editor
+      category: 
       type: asset
       description: Collaborate with your teammates with the official version control
         system for Unity. Collaborate is a simple way for teams to save, share, and
@@ -782,9 +829,24 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.7
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
+        - 2.1.0
+        - 2.2.0
+        - 2.3.1
+        - 2.4.3
+        - 2.4.4
+        - 2.5.1
+        - 2.5.2
+        - 2.6.0
+        - 2.7.1
         compatible:
         - 1.3.9
         - 1.4.9
@@ -902,6 +964,17 @@ m_PackageAssets:
         - 3.0.15
         - 3.0.16
         - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
+        - 3.0.22
+        - 3.0.24
+        - 3.0.25
+        - 3.0.26
+        - 3.0.27
+        - 3.0.28
+        - 3.0.31
+        - 3.0.34
         compatible:
         - 1.0.2
         - 1.0.6
@@ -936,6 +1009,17 @@ m_PackageAssets:
         - 3.0.15
         - 3.0.16
         - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
+        - 3.0.22
+        - 3.0.24
+        - 3.0.25
+        - 3.0.26
+        - 3.0.27
+        - 3.0.28
+        - 3.0.31
+        - 3.0.34
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1012,6 +1096,10 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
+        - 2.0.18
+        - 2.0.20
+        - 2.0.21
+        - 2.0.22
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1033,7 +1121,11 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
-        verified: 2.0.17
+        - 2.0.18
+        - 2.0.20
+        - 2.0.21
+        - 2.0.22
+        verified: 2.0.22
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -1153,7 +1245,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Unity Test Framework
+      category: 
       type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
@@ -1197,6 +1289,19 @@ m_PackageAssets:
         - 1.3.0
         - 1.3.1
         - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1213,6 +1318,19 @@ m_PackageAssets:
         - 1.3.0
         - 1.3.1
         - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1268,7 +1386,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Text Rendering
+      category: 
       type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
@@ -1375,18 +1493,32 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
         - 3.2.0-pre.4
+        - 3.2.0-pre.5
+        - 3.2.0-pre.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        - 3.2.0-pre.10
+        - 3.2.0-pre.11
         - 4.0.0-pre.1
+        - 4.0.0-pre.2
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
         - 3.0.5
         - 3.0.6
-        verified: 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
+        verified: 3.0.9
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -1512,12 +1644,25 @@ m_PackageAssets:
         - 1.6.2
         - 1.6.3
         - 1.6.4
+        - 1.6.5
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
         - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.7.5
+        - 1.7.6
         - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.8.6
+        - 1.8.7
+        - 1.8.8
         compatible:
         - 1.4.6
         - 1.4.7
@@ -1544,26 +1689,38 @@ m_PackageAssets:
         - 1.6.2
         - 1.6.3
         - 1.6.4
+        - 1.6.5
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
         - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.7.5
+        - 1.7.6
         - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.8.6
+        - 1.8.7
         verified: 1.4.8
       dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
       - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.modules.director
-        version: 1.0.0
       - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
@@ -3413,17 +3570,35 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Libraries
-      type: 
+      category: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3439,11 +3614,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3451,37 +3626,57 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
-    - packageId: com.unity.mathematics@1.1.0
+    - packageId: com.unity.2d.path@4.0.1
       testable: 0
       isDirectDependency: 0
-      version: 1.1.0
+      version: 4.0.1
       source: 1
-      resolvedPath: /Users/hiranoaoi/Desktop/Unitygame/sushigame/Library/PackageCache/com.unity.mathematics@1.1.0
-      assetPath: Packages/com.unity.mathematics
-      name: com.unity.mathematics
-      displayName: Mathematics
+      resolvedPath: /Users/hiranoaoi/Desktop/Unitygame/sushigame/Library/PackageCache/com.unity.2d.path@4.0.1
+      assetPath: Packages/com.unity.2d.path
+      name: com.unity.2d.path
+      displayName: 2D Path
       author:
         name: 
         email: 
         url: 
       category: 
-      type: 
-      description: Unity's C# SIMD math library providing vector types and math functions
-        with a shader like syntax.
+      type: asset
+      description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
+        splines) in EditorWindows and the SceneView."
       status: 4
       errors: []
       versions:
         all:
-        - 1.1.0
-        - 1.2.1
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
-        - 1.1.0
-        - 1.2.1
-        verified: 1.2.1
+        - 4.0.1
+        - 4.0.2
+        verified: 4.0.2
       dependencies: []
       resolvedDependencies: []
       keywords:
-      - unity
+      - 2d
+      - path
       registry:
         id: main
         name: 
@@ -3490,17 +3685,17 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637328350450000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
-        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
     - packageId: com.unity.2d.common@4.0.3
       testable: 0
@@ -3515,20 +3710,79 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
-      type: 
+      category: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
         - 4.0.3
+        - 4.0.4
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 6.0.7
+        - 6.0.8
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 9.0.4
+        - 9.0.5
+        - 9.0.6
+        - 9.0.7
         compatible:
         - 4.0.2
         - 4.0.3
-        verified: 4.0.3
+        - 4.0.4
+        verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3557,11 +3811,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637408843940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3569,36 +3823,70 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: c97def465b1932276762fc13f4cfee58da99d5e9
         path: 
-    - packageId: com.unity.2d.path@4.0.1
+    - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
-      version: 4.0.1
+      version: 1.1.0
       source: 1
-      resolvedPath: /Users/hiranoaoi/Desktop/Unitygame/sushigame/Library/PackageCache/com.unity.2d.path@4.0.1
-      assetPath: Packages/com.unity.2d.path
-      name: com.unity.2d.path
-      displayName: 2D Path
+      resolvedPath: /Users/hiranoaoi/Desktop/Unitygame/sushigame/Library/PackageCache/com.unity.mathematics@1.1.0
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
       author:
         name: 
         email: 
         url: 
-      category: 2D
+      category: 
       type: 
-      description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
-        splines) in EditorWindows and the SceneView."
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
       status: 4
       errors: []
       versions:
         all:
-        - 4.0.1
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.3.1
+        - 1.3.2
         compatible:
-        - 4.0.1
-        verified: 4.0.1
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.3.1
+        verified: 1.2.6
       dependencies: []
       resolvedDependencies: []
       keywords:
-      - 2d
-      - path
+      - unity
       registry:
         id: main
         name: 
@@ -3611,13 +3899,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
+        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
+        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
